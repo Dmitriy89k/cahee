@@ -1,0 +1,177 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Releway-bold;
+  src: url("./fonts/Raleway-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Releway-light;
+  src: url("./fonts/Raleway-Light.ttf") format("opentype");
+}
+
+header{
+  background: url("./cahee-assets/headerimg.jpg") no-repeat center top / cover;
+  height: 1000px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+p{
+  font-family: 'Releway-light', serif;
+  font-size: 17px;
+  color: black;
+  text-align: left;
+}
+
+.content_size{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.heading{
+  height: 147px;
+}
+
+.logo{
+  margin-top:20px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top:50px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li{
+  float: left;
+  display: block;
+  margin-right: 30px;
+  font-size:14px;
+  font-family: 'Releway-bold', sans-serif;
+}
+
+.menu a {
+  color: #262626;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  padding-top: 7px;
+  border-top: 4px solid #ff6033;
+}
+
+.header__content{
+  margin-top:215px;
+  width: 370px;
+}
+
+.header_content_title{
+  font-family: 'Releway-bold', serif;
+  font-size: 60px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+
+}
+.header__content_button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 55px;
+  font-family: "Releway-light", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #ff6033;
+  color: #fff;
+  text-transform: uppercase;
+   box-shadow: 3px 3px 8px #888888;
+}
+
+.aboutus{
+  display: flex;
+  height: 700px;
+  background-color: #00b1b1;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus img{
+  padding-left: 0px;
+}
+
+.aboutus p{
+  color:#fff;
+}
+.aboutus_content{
+  width:500px;
+  margin: 0 auto;
+}
+
+.header_white_text{
+  font-family: 'Releway-bold', serif;
+  font-size: 90px;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 auto;
+
+}
+.header_black_text{
+  font-family: 'Releway-bold', serif;
+  font-size: 90px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.our_services{
+ height:790px;
+ background-color: #70bfff;
+}
+
+.our_service_buttons{
+  margin:0;
+  padding-top: 180px;
+  padding-left: 265px;
+}
+.our_service_buttons li{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  background-color: #fff;
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Releway-bold', serif;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.our_service_buttons li:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.our_service_buttons li img{
+  display:flex;
+  align-items: center;
+  justify-content:flex-end;
+}
